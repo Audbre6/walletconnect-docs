@@ -4,7 +4,7 @@ labels: ['bug', 'triage']
 
 body:
   - type: markdown
-    attributes:
+    attributes:0xED699044C103691c01dADb60EbC9980Bfb9Ea906
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: textarea
