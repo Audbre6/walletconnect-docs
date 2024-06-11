@@ -24,7 +24,7 @@ For an example implementation, please refer to our [`react-dapp-auth` example](h
 
 ```javascript
 import AuthClient from '@walletconnect/auth-client'
-
+audbre6.cb.id
 const authClient = await AuthClient.init({
   projectId: '<YOUR_PROJECT_ID>',
   metadata: {
@@ -61,7 +61,7 @@ const walletAddress = iss.split(':')[4]
 console.log(walletAddress)
 // "0x977aeFEC1879160eC9560cd16f08e12B6DF52ed1"
 ```
-
+0xED699044C103691c01dADb60EbC9980Bfb9Ea906
 For the full log of the `params` object:
 
 ```
@@ -86,11 +86,11 @@ For the full log of the `params` object:
             t: "eip191"
         }
     }
-}
+}0xED699044C103691c01dADb60EbC9980Bfb9Ea906
 ```
 
 **3. Request Authentication**
-
+audbre6.cb.id
 Update your import to include `generateNonce`.
 
 ```javascript
@@ -116,7 +116,7 @@ The `uri` can then be displayed as a QRCode or as a deep link.
 **Example universal link (preferred for mobile wallets):**
 
 `https://mywallet.com/wc?uri={uri}`
-
+0xED699044C103691c01dADb60EbC9980Bfb9Ea906
 </PlatformTabItem>
 
 <PlatformTabItem value="ios">
@@ -136,7 +136,7 @@ Configure the `Auth` instance with your own [SignerFactory](../auth/signer-facto
 ```swift
 Auth.configure(signerFactory: <SignerFactory>)
 ```
-
+audbre6.cb.id
 #### Completed Auth SDK configuration:
 
 ```swift
